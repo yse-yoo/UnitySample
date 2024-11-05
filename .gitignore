@@ -1,0 +1,84 @@
+# Unity のテンポラリーファイルやビルドキャッシュ
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# ユーザー固有の設定ファイル
+UserSettings/
+
+# Visual Studio の一時ファイル
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.userprefs
+*.user
+
+# モノのアセンブリファイル
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Unity の自動生成ファイル
+*.csproj
+*.unityproj
+*.sln
+*.suo
+
+# 一時ファイル
+*.swp
+*.tmp
+*.temp
+*.DS_Store
+*.idea/
+*.vs/
+*.txt
+*.mat
+*.prefab
+*.svg
+*.jpg
+*.png
+*.pdf
+*.fbx
+*.unity
+*.tga
+*.asset
+*.exr
+*.controller
+*.shader
+*.cginc
+*.ai
+*.psd
+*.mask
+*.anim
+*.cg
+*.wav
+*.json
+
+
+# プレハブとアセットファイルのメタデータ（明示的に追加されない限り）
+# 他のファイルと競合しやすい場合に除外を考慮
+*.meta
+
+# ブラウザキャッシュファイルやシステム生成の一時ファイル
+.DS_Store
+Thumbs.db
+
+# プラットフォーム固有のビルド出力
+*.apk
+*.ipa
+*.unitypackage
+
+# ユーザー固有のテストやキャッシュデータ
+[Tt]ests/
+
+# Git 管理上に不要なファイル
+# Unity のパッケージマネージャーの一部は除外する必要あり
+Packages/com.unity.package-manager/
